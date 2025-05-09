@@ -9,8 +9,8 @@ interface NzemeLogoProps {
 const NzemeLogo: FC<NzemeLogoProps> = ({ size = 'md', color = 'green' }) => {
   const sizes = {
     sm: 'w-10 h-10',
-    md: 'w-16 h-16',
-    lg: 'w-24 h-24',
+    md: 'w-18 h-18',
+    lg: 'w-28 h-28',
     xl: 'w-40 h-40'
   };
 
