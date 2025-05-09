@@ -62,7 +62,7 @@ const Register = () => {
                 onChange={(e) => setCredentials({...credentials, firstName: e.target.value})}
                 required
               />
-              <User className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
+              
             </div>
           </div>
           
@@ -78,7 +78,6 @@ const Register = () => {
                 onChange={(e) => setCredentials({...credentials, phoneNumber: e.target.value})}
                 required
               />
-              <Phone className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
             </div>
           </div>
           
@@ -94,8 +93,7 @@ const Register = () => {
                 onChange={(e) => setCredentials({...credentials, email: e.target.value})}
                 required
               />
-              <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
-            </div>
+              </div>
           </div>
           
           <div>
@@ -111,7 +109,6 @@ const Register = () => {
                 required
                 minLength={8}
               />
-              <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
               <button
                 type="button"
                 className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400"
