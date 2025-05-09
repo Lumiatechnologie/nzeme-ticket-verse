@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Eye, EyeOff, Mail } from 'lucide-react';
+import { Eye, EyeOff, Mail, Lock } from 'lucide-react';
 import NzemeLogo from '../components/NzemeLogo';
 import { LoginCredentials } from '../types/auth';
 
@@ -54,7 +54,7 @@ const Login = () => {
                 onChange={(e) => setCredentials({...credentials, password: e.target.value})}
                 required
               />
-              <Mail className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
+              <Lock className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
               <button
                 type="button"
                 className="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-400"
