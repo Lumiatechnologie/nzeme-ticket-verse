@@ -11,7 +11,7 @@ const NzemeLogo: FC<NzemeLogoProps> = ({ size = 'md', color = 'green' }) => {
     sm: 'w-10 h-10',
     md: 'w-16 h-16',
     lg: 'w-24 h-24',
-    xl: 'w-32 h-32'
+    xl: 'w-40 h-40'
   };
 
   const logoPath = '/lovable-uploads/b9b1d8c3-4790-4597-a1c4-79515cdbb1d5.png';
