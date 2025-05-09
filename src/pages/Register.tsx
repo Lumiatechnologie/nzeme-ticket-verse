@@ -46,7 +46,6 @@ const Register = () => {
                 onChange={(e) => setCredentials({...credentials, lastName: e.target.value})}
                 required
               />
-              <User className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400" size={18} />
             </div>
           </div>
           
