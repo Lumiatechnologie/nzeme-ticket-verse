@@ -14,7 +14,7 @@ const NzemeLogo: FC<NzemeLogoProps> = ({ size = 'md', color = 'green' }) => {
     xl: 'w-32 h-32'
   };
 
-  const logoPath = '/lovable-uploads/9e8b0965-55e2-4c0a-8e0b-4ec3a6e04abf.png';
+  const logoPath = '/lovable-uploads/b9b1d8c3-4790-4597-a1c4-79515cdbb1d5.png';
   
   return (
     <div className="flex flex-col items-center justify-center">
