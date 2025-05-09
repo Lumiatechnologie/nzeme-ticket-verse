@@ -14,7 +14,7 @@ const Register = () => {
     password: '',
     role: 'client' // Default role
   });
-  
+   
   const [showPassword, setShowPassword] = useState(false);
   
   const handleSubmit = (e: React.FormEvent) => {
