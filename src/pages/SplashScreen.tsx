@@ -23,7 +23,7 @@ const SplashScreen = () => {
         <div className="mt-10 flex justify-center">
           <LoadingSpinner size="lg" />
         </div>
-        <p className="text-white text-center mt-4">LOADING...</p>
+        <p className="text-white text-center mt-4">CHARGEMENT...</p>
       </div>
     </div>
   );

@@ -14,19 +14,16 @@ const NzemeLogo: FC<NzemeLogoProps> = ({ size = 'md', color = 'green' }) => {
     xl: 'w-32 h-32'
   };
 
-  const logoPath = '/lovable-uploads/nzeme-logo.svg';
+  const logoPath = '/lovable-uploads/9e8b0965-55e2-4c0a-8e0b-4ec3a6e04abf.png';
   
   return (
     <div className="flex flex-col items-center justify-center">
       <img 
         src={logoPath} 
         alt="N'ZÊME Logo" 
-        className={`nzeme-logo ${sizes[size]}`}
+        className={`nzeme-logo ${sizes[size]} ${color === 'white' ? 'brightness-0 invert' : ''}`}
       />
       <div className={`font-bold text-center mt-2 ${color === 'white' ? 'text-white' : 'text-nzeme-green'}`}>
-        <h1 className={`${size === 'sm' ? 'text-lg' : size === 'md' ? 'text-xl' : size === 'lg' ? 'text-2xl' : 'text-3xl'}`}>
-          N'ZÊME
-        </h1>
         <p className={`${size === 'sm' ? 'text-[8px]' : size === 'md' ? 'text-xs' : size === 'lg' ? 'text-sm' : 'text-base'} tracking-widest`}>
           LA BILLETTERIE NUMÉRIQUE INTELLIGENTE
         </p>

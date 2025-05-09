@@ -19,7 +19,7 @@ const Login = () => {
   return (
     <div className="min-h-screen flex flex-col items-center bg-white p-4 sm:p-6">
       <div className="w-full max-w-md">
-        <div className="mb-8 mt-8">
+        <div className="mb-8 mt-8 flex justify-center">
           <NzemeLogo size="lg" />
         </div>
 
@@ -112,7 +112,7 @@ const Login = () => {
                 d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"
               />
             </svg>
-            Sign In with Google
+            Connexion avec Google
           </button>
         </form>
       </div>
