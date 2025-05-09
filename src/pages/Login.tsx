@@ -122,6 +122,9 @@ const Login = () => {
       <div className="hidden md:block md:w-1/2 bg-cover bg-center" style={{ backgroundImage: `url(https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80)` }}>
         <div className="h-full w-full bg-nzeme-green bg-opacity-70 flex items-center justify-center">
           <div className="text-white text-center p-8">
+            <div className="mb-8 mt-8 flex justify-center">
+             <NzemeLogo size="lg" />
+           </div>
             <h2 className="text-3xl font-bold mb-4">Bienvenue sur N'ZÊME</h2>
             <p className="text-xl">La billetterie numérique intelligente pour tous vos événements</p>
           </div>
