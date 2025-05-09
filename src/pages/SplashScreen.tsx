@@ -4,14 +4,14 @@ import { useNavigate } from 'react-router-dom';
 import NzemeLogo from '../components/NzemeLogo';
 import LoadingSpinner from '../components/LoadingSpinner';
 
-const Index = () => {
+const SplashScreen = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    // Auto-redirect to splash screen
+    // Simulate loading time then navigate to login
     const timer = setTimeout(() => {
-      navigate('/');
-    }, 1000);
+      navigate('/login');
+    }, 3000);
 
     return () => clearTimeout(timer);
   }, [navigate]);
@@ -23,9 +23,10 @@ const Index = () => {
         <div className="mt-10 flex justify-center">
           <LoadingSpinner size="lg" />
         </div>
+        <p className="text-white text-center mt-4">LOADING...</p>
       </div>
     </div>
   );
 };
 
-export default Index;
+export default SplashScreen;
