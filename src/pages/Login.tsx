@@ -119,7 +119,7 @@ const Login = () => {
       </div>
       
       {/* Image côté droit */}
-      <div className="hidden md:block md:w-1/2 bg-cover bg-center" style={{ background-color: '#027333' }}>
+      <div className="hidden md:block md:w-1/2 bg-cover bg-center" style={{ background: #027333 }}>
         <div className="h-full w-full bg-nzeme-green bg-opacity-70 flex items-center justify-center">
           <div className="text-white text-center p-8">
             <div className="mb-8 mt-8 flex justify-center">
